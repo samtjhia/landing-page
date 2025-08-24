@@ -16,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 16px 200px;
-    margin-bottom: 32px;
+    margin-bottom: 64px;
 }
 
 header .logo p {
@@ -38,6 +38,10 @@ ul {
     background-color: #1F2937;
     display: flex;
     padding: 0 200px;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .hero .main {
@@ -49,6 +53,25 @@ ul {
 .hero .secondary {
     font-size: 18px;
     color: #E5E7EB;
+    max-width: 500px;
+}
+
+.hero button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 100px;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .footer {

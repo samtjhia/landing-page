@@ -41,9 +41,10 @@ ul {
     flex: 1 1 auto;
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: 64px;
-
+    max-width: 1500px;
+    margin: 0 auto 64px;
 }
+
 
 .hero .main {
     font-size: 48px;
@@ -145,24 +146,42 @@ ul {
     background-color: #3882F6;
     border-radius: 12px;
     padding: 40px 100px;
+    gap: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: #F9FAF8;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.signup .left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 0;
+
+}
+
+.signup .right {
+    flex: 0 0 auto;
 }
 
 .signup button {
-  color: #E5E7EB;
-  background-color: #3882F6;
-  border: 2px solid #F9FAF8;
-  border-radius: 8px;
-  font-weight: bold;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-  max-width: 200px;
-  outline: none;
-  box-shadow: none;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    max-width: 200px;
+    outline: none;
+    box-shadow: none;
+    flex-shrink: 0;
+
 }
 
 /* footer */

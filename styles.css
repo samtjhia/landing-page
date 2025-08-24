@@ -101,7 +101,8 @@ ul {
 .information .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .container .text {
@@ -109,6 +110,30 @@ ul {
 }
 
 /* quote */
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px;
+    color: #1F2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote .speaker {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* footer */
 .footer {

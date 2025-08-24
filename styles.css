@@ -1,16 +1,22 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1F2937;
+
 }
 
 body {
-  font-family: Roboto;
+    font-family: Roboto;
 }
 
 /* header */
 header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 200px;
+    margin-bottom: 32px;
 }
 
 header .logo p {
@@ -21,21 +27,26 @@ header .logo p {
 ul {
     color: #E5E7EB;
     list-style-type: none;
+    display: flex;
+    gap: 16px;
 }
+
 
 /* hero */
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    padding: 0 200px;
 }
 
-.hero .main{
+.hero .main {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-.hero .secondary{
+.hero .secondary {
     font-size: 18px;
     color: #E5E7EB;
 }
